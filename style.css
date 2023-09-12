@@ -1,0 +1,673 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    width: 100%;
+}
+/* <!-- pindbox  --> */
+.box2nd{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(253, 219, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    box-sizing: border-box;
+    margin: 0px 8px 0px 0px;
+    flex: 1 1 0%;
+    } 
+
+    .text{
+        margin-top: 15px;
+    }
+
+    .reg{
+        border-radius: 4px;
+        background-color: rgb(255, 255, 68);
+        color: black;
+        padding: 2px 10px 2px 10px;
+        
+    }
+    .reg:hover{
+        cursor: pointer;
+
+    }
+
+
+    @media (max-width: 768px){
+        .box2nd{display: block; }
+        .box2nd{height: 110px; }
+        .box2nd{align-items: center;}
+        .box2nd{justify-content: space-between; }
+
+
+       
+    }
+  
+
+
+    /* <!-- pindbox end --> */
+
+/* 3rdbox */
+
+
+    .grand_parent{
+width: 100%;
+height: 540px;
+background-color: rgb(250, 250, 250);
+
+    }
+
+    .parents{ 
+        width:100%; 
+        height: auto;
+        /* margin: auto; */
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        transition: all 0.2 linear;
+       
+    }
+
+    .child1{
+        width: 48%;
+        height: 500px;
+        /* background:#81ecec; */
+        /* flex:1 1 200px; */
+        margin: 50px 5px 10px 10px;
+       
+    }
+
+    .child1 h1{
+        font-size: 40px;
+    color: black;
+    text-align:start;
+    align-items: center;
+    font-weight: normal;
+    margin: 80px 0 0 55px;
+    }
+    
+
+.child1 p{
+    font-size: 20px;
+    color: black;
+    text-align:start;
+    align-items: center;
+    font-weight: normal;
+    margin: 30px 0 0 55px;
+
+}
+
+.sign{
+
+    border: 1px solid rgb(255, 255, 68);
+    border-radius: 5px;
+    outline: none;
+    width: 350px;
+    height: 40px;
+ color: black;
+    background-color: rgb(255, 255, 68);
+    margin-top: 25px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: normal;
+    justify-content: center;
+    margin: 30px 0 0 55px;
+
+}
+.sign a{
+    text-decoration: none;
+    color:black;
+    transition: all 0.3 linear;
+
+
+}
+
+.sign a:hover{
+    transition: all 0.3 linear;
+
+}
+
+.child1 h4{
+    font-size: 20px;
+color:rgb(189, 188, 188);
+text-align:start;
+font-weight: normal;
+margin: 10px 0 0 170px;
+}
+
+
+.google{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+    width: 150px;
+    height: 40px;
+ color: black;
+    background-color:lightgray;
+    margin-top: 25px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: normal;
+    justify-content: center;
+    margin: 10px 0 0 55px;
+
+}
+
+.apple{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+    width: 150px;
+    height: 40px;
+ color: black;
+    background-color:lightgray;
+    margin-top: 25px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: normal;
+    justify-content: center;
+    margin: 10px 0 0 55px;
+}
+
+.google a{
+text-decoration: none;
+color: black;
+
+}
+
+.apple a{
+    text-decoration: none;
+    color: black;
+    
+    }
+
+
+    .child2{
+        width: 48%;
+        height: 500px;
+        /* background:#001b1b; */
+        /* flex:1 1 200px; */
+        margin: 50px 5px 10px 10px;
+    }
+.child2 img{
+    margin: 20px 0 0 30px;
+}
+
+
+
+
+
+
+
+
+    @media (max-width: 1250px){
+        .grand_parent{height:auto; }
+        .child1{width:100% }
+        .child2{width:100% }
+    }
+        @media (max-width: 620){
+            .parents{height:auto; }
+            .child1{width: 100% }
+            .child2{width:100%; }
+
+    }
+
+    /* <!-- 3rdbox end --> */
+
+    /* <!-- 4th billion box start --> */
+
+
+
+    .child{
+        height: 170px;
+        /* background:#81ecec; */
+        box-shadow: 0 0 5px #d4d6d6;
+        flex:1 1 200px;
+        margin: 20px;
+        align-items: center;
+    }
+    
+    .child h1{
+        font-size: 40px;
+        margin: 10px 0 0 20px;
+
+    }
+
+    .child p{
+        font-size: 20px;
+        margin: 5px 0 0 20px;
+        font-weight: normal;
+        color: rgb(66, 66, 66);
+
+    }
+    .bannar {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+/* <!-- 4th billion box End --> */
+
+/* <!-- tablehading start --> */
+
+
+.tablehading{
+display: flex;
+justify-content: space-around;
+align-items:center;
+width: 100%;
+height: 100px;
+gap: 250px;
+font-family: 'Poppins', sans-serif;
+}
+
+/* <!-- tablehading end --> */
+
+
+/* <!-- Sign up contaner Start --> */
+
+.signup{
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signuptext h2{
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 0 10px 110px;
+}
+
+.getstart{
+    font-family: 'Roboto', sans-serif;
+    margin: 30px 0 10px 110px;
+    border: 1px solid rgb(255, 255, 68);
+    border-radius: 7px;
+    outline: none;
+    background-color:rgb(255, 255, 0) ;
+    justify-content: center;
+    width: 170px;
+    height: 40px;
+
+}
+.getstart a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* <!-- Sign up contaner End --> */
+
+  
+/* Trade cont start --> */
+
+
+.Buy{
+    font-family: 'Roboto', sans-serif;
+    margin: 10 0 0 30px;
+    border: 1px solid rgb(255, 255, 68);
+    border-radius: 7px;
+    outline: none;
+    background-color:rgb(255, 255, 0) ;
+    justify-content: center;
+    width: 170px;
+    height: 40px;
+
+}
+
+.Buy a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.Trade{
+  /* background-color: antiquewhite; */
+  margin-left: 50px !important;
+  width: 100%;
+  height: 300px !important;
+  border-radius: 10px;
+    
+}
+
+/* <!-- Trade cont end --> */
+
+/* portfolio cont start --> */
+
+.portfolio{
+height: 300px;
+margin-top: 50px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+}
+
+.portfolio h3{
+gap: 20px !important;
+}
+.portfolio p{
+    padding-left: 70px;
+}
+
+.portfoliobtn{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(255, 255, 68);
+    border-radius: 7px;
+    outline: none;
+    background-color:rgb(255, 255, 0) ;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+
+}
+
+.portfoliobtn a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+.mobile img{
+margin: 10px 0 0 90px;
+}
+
+
+/* portfolio end */
+
+.rewards_parent{ width: 100%; 
+    height:650px;
+    /* background: #dfe6e9;  */
+    color: #fff;
+}
+
+.rewards_parent h4{
+    font-size: 4rem;
+    padding: 30px 0 0 50px;
+    text-align:start;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+font-size: larger;
+}
+
+.rewards_parent p{
+    font-size: 4rem;
+    padding: 10px 0 0 50px;
+    text-align:start;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+font-size: larger;
+}
+
+
+
+.rewards{ width: 90%;
+     height: auto; 
+     margin: auto;
+    display: flex;  
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap; 
+    transition: all 0.2 linear;
+}
+.rewardsbox{
+    height: 250px;
+    background:#e4ebeb;
+    box-shadow: 0 0 10px #bac3c3;
+    flex:1 1 200px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.rewardsbox h4{
+    margin: 10px 0 0 20px;
+
+}
+
+.rewardsbox h5{
+    margin: 10px 0 0 40px;
+    color: rgb(45, 158, 45);
+}
+.rewardsbox img{
+    
+    margin: 50px 0 0 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rewardsbox:hover{
+    cursor: pointer;
+    border: 3px solid rgb(238, 241, 35);
+    border-radius: 8px;
+}
+
+.rewardsboxbtn{
+    margin: 120px 0 0 95px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(255, 255, 68);
+    border-radius: 7px;
+    outline: none;
+    background-color:rgb(255, 255, 0) ;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    
+}
+
+.rewardsboxbtn a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+/* <!-- Trade cont end --> */
+
+
+
+/* slid 3 box start */
+
+.slidboxmain{
+    width: 100%; 
+    height:600px;
+		
+            
+             margin-top: 70px;
+}
+
+.slidboxmain h1{
+
+    font-size:larger;
+    font-weight: bold;
+font-family: 'Roboto', sans-serif;
+margin: 0 0 30px 100px;
+color: #000;
+
+}
+
+.slidboxparents{
+
+    width: 90%;
+    height: auto;
+    display: flex;  
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    transition: all 0.2 linear;
+    margin: auto;
+
+}
+
+.slidboxs{
+    height: 450px;
+    background:#f6f8f8;
+    box-shadow: 0 0 15px #edf1f1;
+    flex:1 1 200px;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+
+.slidtext h3{
+    justify-content: start !important;
+    align-items: start;
+margin-top: 70px;
+
+}
+
+.slidtext p{
+    justify-content: start !important;
+    align-items: start;
+margin-top: 20px;
+
+}
+
+.slidboxs:hover{
+    cursor: pointer;
+    border: 5px solid lightgoldenrodyellow;
+    background:#e4e7e7;
+
+}
+
+/* slid 3 box end */
+
+
+
+
+
+
+/* crypto exchange start */
+
+
+
+.exchangemain{
+    width: 100%;
+height: 600px;
+}
+
+
+.exchangeparents{
+width:100%; 
+        height: auto;
+        /* margin: auto; */
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        transition: all 0.2 linear;
+        flex:1 1 200px;
+
+}  
+
+
+
+.exchangemain h1{
+    margin: 10px 0 0 70px;
+}
+.exchangemain p{
+    margin: 10px 0 10px 75px;
+}
+
+.ecxchchild{
+    margin-top: 20px;
+}
+
+.ecxchchild h3{
+    margin-left: 5px;
+    margin-top: 20px;
+gap: 10px;}
+
+
+/* <!-- /* crypto exchange end */ --> */
+
+
+
+.endcontener{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+
+.text{
+padding-top: 50px;
+color:black;
+
+
+
+}
+.text ul li{
+    list-style: none;
+    gap: 15px;
+    padding-top: 5px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .rewards_parent{height:auto; }
+}
+
+@media (max-width: 1000px){
+    .rewards_parent{height:auto; }
+    .mobile img {display: none  !important;}
+}
+
+
+
+
+@media (max-width: 768px){
+    .grand_parent{height:auto; }
+    
+    .bannar img{
+       width: 700px;
+    }
+}
+@media (max-width: 426px){
+.child2 img {
+    width: 336px;
+    height: 273px;
+}
+.bannar {
+    display: none  !important;
+}
+button.sign{
+    width: 270px;
+}
+
+ .tablehading{
+   display:inline !important;
+}
+}
+
+
+@media (max-width: 768px){
+    .slidboxmain{height:auto; }
+}
+
+@media (max-width: 900px){
+    .exchangemain{height:auto; }
+    .ecxchchild img {display:inline !important;}
+    .ecxchchild img {width: 350px !important;}
+.exchangeparents{margin:auto;}
+/* .ecxchchild img{width:20px;} */
+}
